@@ -8,7 +8,7 @@
 
 const multipliedValues = intArray => {
     return intArray.reduce((acc, currentValue) => acc * currentValue)
-}
+} 
                                                                                                 
 // solutions:
 console.log(multipliedValues([1, 2, 3, 4])); // 24
@@ -85,6 +85,7 @@ ex.
 'amanda' => 'mand'
 'interview' => 'ntervie'
 */
+
 
 const removeFirstAndLast = str => str.substring(1, str.length-1)
 
